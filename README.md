@@ -338,9 +338,6 @@ See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions.
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
@@ -348,21 +345,5 @@ This project is licensed under the MIT License.
 - MITRE ATT&CK Framework
 - CICIDS2017, NSL-KDD, UNSW-NB15 datasets
 
-## 📞 Support
-
-For support, email support@soc-platform.com or open an issue.
-
-## 🚀 Roadmap
-
-- [ ] Advanced SIEM capabilities
-- [ ] Integration with threat intelligence feeds
-- [ ] Mobile application
-- [ ] Advanced ML models
-- [ ] Kubernetes deployment
-- [ ] Multi-tenancy support
-- [ ] Advanced reporting
-- [ ] API rate limiting dashboard
-
----
 
 **Built with ❤️ for Cybersecurity Professionals**
