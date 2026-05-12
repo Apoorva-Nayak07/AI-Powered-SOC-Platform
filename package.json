@@ -1,0 +1,37 @@
+{
+  "name": "soc-platform",
+  "version": "1.0.0",
+  "description": "AI-Powered Security Operations Center Platform",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:server && npm run install:client && npm run install:ml",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:ml": "cd ml-service && pip install -r requirements.txt",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\" \"npm run dev:ml\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start",
+    "dev:ml": "cd ml-service && python app/main.py",
+    "seed": "cd server && npm run seed",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:build": "docker-compose build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "soc",
+    "security",
+    "cybersecurity",
+    "threat-detection",
+    "ai",
+    "machine-learning",
+    "incident-response",
+    "siem"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
