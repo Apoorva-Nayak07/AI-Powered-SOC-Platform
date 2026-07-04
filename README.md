@@ -5,7 +5,7 @@
 Enterprise-grade Security Operations Center platform with real-time threat monitoring, AI-driven attack detection, automated incident response, and advanced analytics. Built with modern technologies to provide comprehensive cybersecurity monitoring and protection.
 
 ## ✨ Features
-
+ 
 ### 🔐 Core Security Features
 - **Real-time Threat Monitoring** - Live security event tracking and analysis
 - **AI-Powered Anomaly Detection** - Machine learning models for threat detection
