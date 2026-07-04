@@ -4,7 +4,7 @@ import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './contexts/AuthContext';
 import { SocketProvider } from './contexts/SocketContext';
 import PrivateRoute from './components/PrivateRoute';
-
+ 
 // Pages
 import Login from './pages/Login';
 import Register from './pages/Register';
